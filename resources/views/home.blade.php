@@ -29,7 +29,7 @@
         <img
         class="card-img-top img-fluid"
         src="{{ asset('/storage/' . $mobil->foto) }}"
-        alt="Card image cap"
+        alt="Card image cap" style="width:500px;height:300px;"
         />
       <div class="card-header">
         <h5 class="card-title">{{ $mobil->merek }}</h5>

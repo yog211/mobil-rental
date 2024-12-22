@@ -56,7 +56,7 @@
                                             <td>{{ $mobil->merek }}</td>
                                              <td>{{ $mobil->plat_nomor }}</td>
                                              <td>{{ $mobil->warna }}</td>
-                                             <td><img src="{{ asset('/storage/'. $mobil->foto) }}" alt="foto" style="widt: 100px; height: 100px;"> 
+                                             <td><img src="{{ asset('/storage/'. $mobil->foto) }}" alt="foto" style="width: 100px; height: 100px;"> 
                                              </td>
                                              <td>
                                              <form action="{{ route('mobil.delete', $mobil->id)}}" method="post">
