@@ -53,7 +53,7 @@ class MobilController extends Controller
 
     if ($request->file('foto')) {
       // Hapus foto lama jika ada
-      $fotoL = public_path('storage/' . $rentalMobil->foto);
+      $fotoL = public_path('storage/' . $mobil->foto);
       if (file_exists($fotoL)) {
         @unlink($fotoL);
       }
