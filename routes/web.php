@@ -77,7 +77,7 @@ Route::prefix('mobil')->middleware('checkRole:ADM')->group(function () {
             Route::get('/{id}', [TransaksiController::class, 'riwayatTransaksi'])->name('riwayatTransaksi');
         });
     
-        Route::prefix('riwaya-transaksi/customer')->middleware('checkRole:ADM')->group(function () {
+        Route::prefix('riwayat-transaksi/customer')->middleware('checkRole:ADM')->group(function () {
             Route::get('/approve/{id}', [TransaksiController::class, 'approve'])->name('approve');
         });
         
