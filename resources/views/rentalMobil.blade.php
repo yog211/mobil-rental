@@ -7,7 +7,7 @@
       <div class="welcome-text">
         <h4>Rental Mobil -> {{ $rentalMobil->nama_rental }}</h4>
         <center>
-    <img calss=" card-img-top img-fluid m-4" src="{{ asset('/storage/' . $rentalMobil->foto) }}" alt="foto" style="widt: auto; height: 300px;"> 
+    <img class=" card-img-top img-fluid m-4" src="{{ asset('/storage/' . $rentalMobil->foto) }}" alt="foto" style="widt: auto; height: 300px;"> 
    </center>
 
     <p class=" card-text text-dark">{{ $rentalMobil->deskripsi}}</p>
